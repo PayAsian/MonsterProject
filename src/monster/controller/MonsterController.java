@@ -15,6 +15,9 @@ public class MonsterController
 	{
 		System.out.println("We made monsters today!");
 		System.out.println("here is mine " + firstMonster);
+		System.out.println("My monster has this many Legs " + firstMonster.getLegCount());
+		System.out.println("Mr.Fluffy has no nose " + firstMonster.getnoseCount());
+		System.out.println("Mr FLuffy has no belly button " + firstMonster.gethasBellyButton());
 	}
 	/* monster name is Fluffy
 	 * has 2 antenna

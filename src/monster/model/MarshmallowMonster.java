@@ -30,15 +30,12 @@ public class MarshmallowMonster
 		
 	}
 
-	/* monster name is Fluffy
-	 * has 2 antenna
-	 * has 4 legs
-	 * has 0 nose
-	 * has 2 eyes
-	 * does not have a belly button 
-	 */
-
-
+	public String toString()
+	{
+		String description = "Monster says: name is " + name;
+		
+		return description;
+	}
 
 
 
