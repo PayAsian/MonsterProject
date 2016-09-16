@@ -26,7 +26,33 @@ public class MonsterController
 		System.out.println("Do you want to chang my name??");
 		String answer = keyboardInput.nextLine();
 		
-	
+		if (answer.equalsIgnoreCase("yes"))
+		{
+			System.out.println("What do you want the name to be????????");
+		String newName = keyboardInput.nextLine();
+		firstMonster.setName(newName);
+		}
+		else
+		{
+			System.out.println("I get to keep my name grrrrrrr I don\'t like it angry emoji >:(");
+		}
+		
+		System.out.println("Do you want to change the amount of eyes i have??");
+		String answer1 = keyboardInput.nextLine();
+		
+		if(answer1.equalsIgnoreCase("yes"))
+		{
+			System.out.println("Do you want to change the amount of eyes i have?");
+		String newteyeCount = keyboardInput.nextLine();
+		firstMonster.seteyeCount(newteyeCount);
+		}
+		else
+		{
+			System.out.println("I'm actually ok with is....");
+		}
+		
+		
+		System.out.println(firstMonster);
 	}
 	
 	/* monster name is Fluffy
