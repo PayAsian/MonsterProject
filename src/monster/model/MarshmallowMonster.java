@@ -32,15 +32,35 @@ public class MarshmallowMonster
 
 	public String toString()
 	{
-		String description = "Monster says: name is " + name;
+		String description = "Monster says: Name is " + name;
 		
 		return description;
 	}
 
+	public String getName()
+	{
+		return name;
+	}
+	
+	public boolean gethasBellyButton()
+	{
+		return hasBellyButton;		
+	}
+	
+	public int getLegCount()
+	{
+		return legCount;
+	}
 
-
-
-
-
+	public int getnoseCount()
+	{
+		return noseCount;
+	}
+	
+	public int geteyeCount()
+	{
+		return eyeCount;
+	}
+	
 }
 
