@@ -1,6 +1,7 @@
 package monster.controller;
 
 import monster.model.MarshmallowMonster;
+
 import java.util.Scanner;
 
 public class MonsterController 
@@ -43,7 +44,7 @@ public class MonsterController
 		if(answer1.equalsIgnoreCase("yes"))
 		{
 			System.out.println("Do you want to change the amount of eyes i have?");
-		String newteyeCount = keyboardInput.nextLine();
+			int newteyeCount = keyboardInput.nextInt();
 		firstMonster.seteyeCount(newteyeCount);
 		}
 		else

@@ -78,9 +78,9 @@ public class MarshmallowMonster
 		this.hasBellyButton = hasBellyButton;
 	}
 	
-	public void setLegCount(String newteyeCount)
+	public void setLegCount(int LegCount)
 	{
-		this.legCount = newteyeCount;
+		this.legCount = LegCount;
 	}
 	
 	public void setnostCount(int noseCount)
@@ -88,9 +88,9 @@ public class MarshmallowMonster
 		this.noseCount = noseCount;
 	}
 	
-	public void seteyeCount(int legCount)
+	public void seteyeCount(int eyeCount)
 	{
-		this.legCount = legCount;
+		this.eyeCount = eyeCount;
 	}
 	
 	public void setantennaCount(int antennaCount)
